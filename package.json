@@ -1,0 +1,20 @@
+{
+  "name": "instagram-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node app/index.ts"
+  },
+  "author": "ushinji",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.6.9",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
