@@ -7,6 +7,11 @@
     <style></style>
   </head>
   <body>
-    <div>Hello World</div>
+    <h1>自分のInstagramアカウントで投稿した画像一覧</h1>
+    <div>
+      <% for (let imageUrl of imageUrls) { %>
+        <img src="<%= imageUrl %>"></img>
+      <% } %>
+    </div>
   </body>
 </html>
